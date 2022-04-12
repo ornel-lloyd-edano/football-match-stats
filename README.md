@@ -1,4 +1,4 @@
-#Assignment
+# Assignment
 
 One part of a current project is responsible for processing the XML data received from a partner. In the attachment you can find a sample file containing some statistics from a football match. We would like you to write a program that:
 
@@ -11,12 +11,12 @@ Please provide a README file (in github format), explaining:
 how to build the application - this should be a single command
 how to run the application - this should be a single command
 
-#How To Build
+# How To Build
 1. Open console and navigate to the SBT project folder (default: football-match-stats)
 2. Type and execute: `sbt clean assembly`
 3. Artifact is saved in `/project folder/target/scala-2.13/`
 
-#How To Run
+# How To Run
 1. Open console and navigate to the folder where the jar was created (default location: /football-match-stats/target/scala-2.13/)
 2. Type and execute: `java -jar <insert name of jar file> <insert name of stat>  <insert xml file>`
 
